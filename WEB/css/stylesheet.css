@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+}
+
+/*#region Uvodni_stranka*/
+
+.home {
+    background-image: url("/img/POZADÍ.jpeg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: auto;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 2%;
+    background: linear-gradient(180deg, rgba(201, 196, 196, 0.493) 32.77%, rgba(212, 212, 212, 0) 100%);
+}
+
+li, a, button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav_buttons {
+    float: right;
+    list-style: none;
+}
+
+.nav_buttons li {
+    display: inline-block;
+    padding: 0 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.nav_buttons a:hover {
+    color: rgb(44, 43, 43);
+}
+
+.introduction {
+    font-size: 115px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+    float: right;
+    padding: 2%;
+    inline-size: 40vw;
+    text-align: right;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.logo img {
+    cursor: pointer;
+    height: 130px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transform: rotate(-4.56deg);
+}
+
+/*#endregion */
+
+/*#region About_me*/
+.aboutme {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 85vw;
+    padding: 5%;
+}
+
+.aboutme_text {
+    display: inline;
+    padding: 7% 0 6% 0;
+    width: 55vw;
+}
+
+.aboutme h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+}
+
+.aboutme p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    width: fit-content;
+}
+
+.aboutme_image {
+    width: 250px;
+    padding: 5%;
+}
+
+/*#endregion*/
+
+/*#region Results*/
+.results {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 0 0 4em 0;
+}
+
+.results h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    background-color: black;
+    padding: 2%;
+}
+
+.results_list li {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: black;
+    padding: 0.5em;
+}
+
+.results ul {
+    list-style: none;
+    padding: 0%;
+    text-align: center;
+}
+
+.column1, .column2, .column3 {
+    width: fit-content;
+    background-color: rgb(248, 247, 247);
+    text-align: center;
+    padding: 0 3% 2% 3%;
+    width: 20vw;
+    min-width: 250px;
+    margin: 1em 0 1em 0;
+}
+
+.column1:hover, .column2:hover, .column3:hover {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+ 
+
+/*#endregion*/
+
+/*#region Galerie*/
+.gallery {
+
+}
+
+.gallery h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    text-align: center;
+}
+/*#endregion*/
